@@ -1,0 +1,11 @@
+10 projects:
+DSC530 - MLB Switch Hitters
+DSC640 - Dashboard?
+DS640 - Infographic?
+DSC550 - Pitch Data
+DSC550 - Charm Algorithm
+DSC550 - Gini & Decision Tree
+DSC630 - Predicting WAR (baseball)
+DSC680 - Project 1
+DSC680 - Project 2
+DSC680 - Project 3
