@@ -109,7 +109,7 @@ markdown: kramdown
 #sass:
 #  style: compressed
 exclude: ['site.bat','compose.rb','README.md']
-include: ['_posts', '_pages','.htaccess']
+include: ['_pages','.htaccess']
 defaults:
   - scope:
       path: _pages
