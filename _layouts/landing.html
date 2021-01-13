@@ -122,7 +122,12 @@
               </header>
               <ul class="actions vertical">
                 <!-- <li><a href="#" class="button fit special">Activate</a></li> -->
-                <li><a href="{{ '/contact/' | prepend: site.baseurl }}" class="button fit special">Contact</a></li>
+                <li><a target="_blank" href="{%
+                    if site.social['email'] contains '@' %}mailto:{{ site.social['email'] }}{%
+                    endif %}" class="button fit special"
+                       ><span class="label">Contact</span></a></li>
+
+                <!-- <li><a href="{{ '/contact/' | prepend: site.baseurl }}" class="button fit special">Contact</a></li> -->
               </ul>
             </div>
           </section>
