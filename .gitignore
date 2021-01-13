@@ -66,3 +66,9 @@ Temporary Items
 
 # pycharm
 .idea/
+
+# jekyll
+.jekyll-cache/
+
+setup.log
+setup.log.full
