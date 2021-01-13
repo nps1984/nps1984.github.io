@@ -2,7 +2,7 @@
 .jekyll-metadata
 .sass-cache/
 _site/
-_drafts/
+#_drafts/
 _data/tokens.yml
 _posts/1*
 _posts/2*
@@ -12,6 +12,10 @@ _my/
 _includes/_my
 _layouts/_my
 Gemfile*.lock
+.jekyll-cache/
+setup.log
+setup.log.full
+
 
 # Windows image file caches
 Thumbs.db
@@ -67,8 +71,3 @@ Temporary Items
 # pycharm
 .idea/
 
-# jekyll
-.jekyll-cache/
-
-setup.log
-setup.log.full
