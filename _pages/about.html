@@ -7,38 +7,26 @@ excerpt: Everything you need to know about me!
 background-image: caustic_light.jpg
 script-includes:
   - /js/jquery.validate.min.js
-script: |
-  $("#sendemail").validate();
 ---
 
-<section>
-  <form id="sendemail" method="post" action="{{ site.data.tokens.mailaction }}">
-    <div class="row uniform">
-      <div class="6u 12u$(xsmall)">
-        <input type="text" name="name" id="name" value="" placeholder="Name" />
-      </div>
-      <div class="6u$ 12u$(xsmall)">
-        <input required type="email" name="email" id="email" value="" placeholder="Email" />
-      </div>
-      <div class="12u$">
-        <input required type="text" minlength="2" name="subject" id="subject" value="" placeholder="Subject" />
-      </div>
-      <div class="12u$">
-        <textarea required name="textbody" id="textbody" placeholder="Type your message" rows="6"></textarea>
-      </div>
-      <div class="6u$ 12u$(xsmall)">
-        <img src="{{ site.data.tokens.captchascript }}"/><br />
-        <input required type="text" name="captcha" id="captcha" placeholder="Type the numbers you see" />
-      </div>
-      <div class="12u$">
-        <ul class="actions">
-          <li><input type="submit" value="Send Message" class="special" /></li>
-        </ul>
-      </div>
-    </div>
-    <input type="hidden" name="success"
-           value="{{ '/contact-success' | prepend: site.baseurl | prepend: site.url }}" />
-    <input type="hidden" name="failure"
-           value="{{ '/contact-failure' | prepend: site.baseurl | prepend: site.url }}" />
-  </form>
-</section>
+<h1>About Me</h1>
+<p>
+I am a husband, father, and an Oracle DBA for a retail company.
+</p>
+
+<p>
+  When I can, I go outside. I love to hike, camp, play in the woods with my kids, work in the woods or the garden. If I
+happen to tire of being outside, you will probably catch me on the couch watching sports or movies, maybe reading a book, or cooking in the kitchen.
+  <img src="/images/nick_and_kids.jpg" alt="Nick and Kids by the Christmas Tree" style="float:right;width:342px;height:242px;">
+</p>
+
+<p>
+At work, I've been an Oracle DBA for about 10 years. I have worked with Oracle 9i through 19c. Data Guard, RAC, ASM,
+Goldengate, AWR/ADDM, RMAN. Building databases, restoring databases, tuning databases. Really anything you can think of
+with Oracle, I have probably touched it at some point.
+</p>
+
+<p>
+In 2021, I completed a Masters of Science in Data Science from Bellevue University. I am currently exploring how to
+merge my world, the database, and the data science world into one exciting world!
+</p>
