@@ -1,6 +1,6 @@
 ---
-title: Generating Product Reviews
-excerpt: Data science project to attempt to generate amazon product reviews
+title: Unnamed Project
+excerpt: TBD
 priority: 1
 categories:
   - works
@@ -12,7 +12,7 @@ date: 2021-01-13 14:44:22 -0500
 lastmod: 2021-01-13 14:44:22 -0500
 ---
 
-# DSC680 Project 1 - Generate Product Reviews
+# UNNAMED PROJECT
 [Git Repo](https://github.com/nps1984/DSC680/tree/main/generate-product-reviews)
 This project was an attempt to use an LSTM model to generate coherent text in the form of a product review on Amazon. The results left much to be desired, contained in this repo are:
 

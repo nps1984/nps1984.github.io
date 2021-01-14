@@ -10,8 +10,8 @@ date: 2021-01-13 14:44:22 -0500
 lastmod: 2021-01-13 14:44:22 -0500
 ---
 
-# DSC640 Data Visualizations -  Dashboard
-[Git Repo](https://github.com/nps1984/DSC640/tree/master/airline-safety)
+# Data Visualizations -  Dashboard
+[Git Repo](https://github.com/nps1984/data-visualizations)
 
 
 ## Summary

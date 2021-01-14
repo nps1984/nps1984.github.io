@@ -13,8 +13,8 @@ date: 2021-01-13 14:44:22 -0500
 lastmod: 2021-01-13 14:44:22 -0500
 ---
 
-# DSC680 Project 1 - Generate Product Reviews
-[Git Repo](https://github.com/nps1984/DSC630/tree/master/mlb-war-pred)
+# Project 1 - Generate Product Reviews
+[Git Repo](https://github.com/nps1984/mlb-war-pred/tree/master/mlb-war-pred)
 
 ## Summary
 This project was an attempt to predict WAR (wins above replacement) for MLB players.

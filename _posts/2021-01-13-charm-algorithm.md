@@ -13,8 +13,8 @@ date: 2021-01-13 14:44:22 -0500
 lastmod: 2021-01-13 14:44:22 -0500
 ---
 
-# DSC550 Charm Algorithm
-[Git Repo](https://github.com/nps1984/DSC550/tree/master/charm)
+# Charm Algorithm
+[Git Repo](https://github.com/nps1984/machine-learning/tree/master/charm)
 
 This python file here may look simple; it is just over a 100 lines, there are no custom classes, and I am using basic
 python3 code. But this took me nearly two 40 hour weeks to complete! The goal of this assignment was to recreate the

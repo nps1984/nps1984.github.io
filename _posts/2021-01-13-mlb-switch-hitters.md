@@ -13,8 +13,8 @@ date: 2021-01-13 14:44:22 -0500
 lastmod: 2021-01-13 14:44:22 -0500
 ---
 
-# DSC530 - Efficacy of MLB Switch Hitters
-[Git Repo](https://github.com/nps1984/DSC530/tree/master/mlb-switch-hitters)
+# Efficacy of MLB Switch Hitters
+[Git Repo](https://github.com/nps1984/mlb-switch-hitters/tree/master/mlb-switch-hitters)
 
 ## Summary
 The idea behind this project was to determine if switch hitters were actually

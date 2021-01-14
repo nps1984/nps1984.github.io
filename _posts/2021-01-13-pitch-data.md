@@ -13,8 +13,8 @@ date: 2021-01-13 14:44:22 -0500
 lastmod: 2021-01-13 14:44:22 -0500
 ---
 
-# DSC550 Project - MLB Pitch Data
-[Git Repo](https://github.com/nps1984/DSC550/tree/master/mlb-pitch-data)
+# Project - MLB Pitch Data
+[Git Repo](https://github.com/nps1984/machine-learning/tree/master/mlb-pitch-data)
 
 ## Summary
 This was my final project for this course. Like most of my final projects,

@@ -12,8 +12,8 @@ date: 2021-01-13 14:44:22 -0500
 lastmod: 2021-01-13 14:44:22 -0500
 ---
 
-# DSC520 Oscar Predictions
-[Git Repo](https://github.com/nps1984/DSC520)
+# Oscar Predictions
+[Git Repo](https://github.com/nps1984/ds-intro-stats)
 
 ## Summary
 This was one of my first major "data science" projects in my data science program. It was done in the R language, which admittedly I was very unfamiliar with.
