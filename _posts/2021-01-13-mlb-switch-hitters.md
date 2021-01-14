@@ -1,26 +1,44 @@
 ---
-title: Generating Product Reviews
-excerpt: Data science project to attempt to generate amazon product reviews
+title: MLB Switch Hitters
+excerpt: Data science project to determine if switch hitting is beneficial
 priority: 1
+author: nps1984
 categories:
   - works
 tags:
-  - LSTM
-  - RNN
+  - selenium
+  - BeautifulSoup
 #date/lastmod are optional
 date: 2021-01-13 14:44:22 -0500
 lastmod: 2021-01-13 14:44:22 -0500
 ---
 
-# DSC680 Project 1 - Generate Product Reviews
-[Git Repo](https://github.com/nps1984/DSC680/tree/main/generate-product-reviews)
-This project was an attempt to use an LSTM model to generate coherent text in the form of a product review on Amazon. The results left much to be desired, contained in this repo are:
+# DSC530 - Efficacy of MLB Switch Hitters
+[Git Repo](https://github.com/nps1984/DSC530/tree/master/mlb-switch-hitters)
 
 ## Summary
-This was an attempt at training an LSTM model for generating text in the form of a new product review.
+The idea behind this project was to determine if switch hitters were actually
+"worth it" or if they should just focus on hitting with their strongest hand.
+This project made use of the ThinkStats repo from Alan Downey.
 
 ## Results
-My results weren't very good. I could not produce legible text.
+Some conclusions I've made is that right-handed hitters are more consistent against
+left handed and right handed pitching. Left-handed hitters struggle more against
+left-handed pitchers. There are some right-handed hitters that hit very well against
+left-handed pitchers. And there are some left-handed hitters that hit very well against
+right-handed pitchers.
+
+As far as switch hitters go, they seem to fall in the middle. They tend to do a little
+better against left-handed pitchers than left-handed hitters. And they tend to do a
+little better against right-handed pitchers than right-handed hitters.
+
+I set out on this project because I thought switch-hitting may be a gimmick.
+But I think it turns out that it is a valid approach to hitting.
+So if you are an 18 year old, budding baseball player on the cusp, it may be beneficial
+for you to take up switch-hitting, especially if you struggle against the opposite hand.
+
+I think the one thing to keep in mind here is that there are some really talented
+baseball players and they can rake no matter who they are playing against.
  
 
 

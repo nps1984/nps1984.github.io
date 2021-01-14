@@ -1,26 +1,32 @@
 ---
-title: Generating Product Reviews
-excerpt: Data science project to attempt to generate amazon product reviews
+title: Oscar Predictions
+excerpt: Data science project to attempt to predict Oscar Winners
 priority: 1
 categories:
   - works
 tags:
-  - LSTM
-  - RNN
+  - RMarkdown
+  - Postgres
 #date/lastmod are optional
 date: 2021-01-13 14:44:22 -0500
 lastmod: 2021-01-13 14:44:22 -0500
 ---
 
-# DSC680 Project 1 - Generate Product Reviews
-[Git Repo](https://github.com/nps1984/DSC680/tree/main/generate-product-reviews)
-This project was an attempt to use an LSTM model to generate coherent text in the form of a product review on Amazon. The results left much to be desired, contained in this repo are:
+# DSC520 Oscar Predictions
+[Git Repo](https://github.com/nps1984/DSC520)
 
 ## Summary
-This was an attempt at training an LSTM model for generating text in the form of a new product review.
+This was one of my first major "data science" projects in my data science program. It was done in the R language, which admittedly I was very unfamiliar with.
+As you go through this, you will probably note that I didn't really know what I was doing in terms of data science. But I am highlighting this project because of a few things:
+* The R code is decent, especially for a beginner
+* It is (nearly) fully contained within the RMD file
+* It highlights my abilities with databases
 
 ## Results
-My results weren't very good. I could not produce legible text.
+As noted in the project files, working with these datasets in R was difficult for me. 
+So I created a local postgresql database, imported the data and used SQL to extract 
+the data in an easier to use format. The SQL is provided throughout the documentation. 
+The process to build and import the data is not unfortunately.
  
 
 
