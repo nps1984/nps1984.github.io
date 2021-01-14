@@ -1,26 +1,32 @@
 ---
-title: Generating Product Reviews
-excerpt: Data science project to attempt to generate amazon product reviews
+title: Predicting WAR, the baseball kind
+excerpt: Data science project to predict player WAR
 priority: 1
+author: nps1984
 categories:
   - works
 tags:
-  - LSTM
-  - RNN
+  - sklearn
+  - matplotlib
 #date/lastmod are optional
 date: 2021-01-13 14:44:22 -0500
 lastmod: 2021-01-13 14:44:22 -0500
 ---
 
 # DSC680 Project 1 - Generate Product Reviews
-[Git Repo](https://github.com/nps1984/DSC680/tree/main/generate-product-reviews)
-This project was an attempt to use an LSTM model to generate coherent text in the form of a product review on Amazon. The results left much to be desired, contained in this repo are:
+[Git Repo](https://github.com/nps1984/DSC630/tree/master/mlb-war-pred)
 
 ## Summary
-This was an attempt at training an LSTM model for generating text in the form of a new product review.
+This project was an attempt to predict WAR (wins above replacement) for MLB players.
+
+The notebook uses the pybaseball library to download MLB statistics. It then uses the
+sklearn library to perform feature selection. And finally it goes through a pipeline
+and grid search cross validation to find the best model parameters. I didn't love the 
+output of the model identified from the GridSearchCV, so I manually generated several 
+models to review output.
 
 ## Results
-My results weren't very good. I could not produce legible text.
+I was able to achieve reasonable predictions, but my accuracy wasn't very good.
  
 
 

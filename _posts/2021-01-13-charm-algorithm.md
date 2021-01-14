@@ -1,26 +1,34 @@
 ---
-title: Generating Product Reviews
-excerpt: Data science project to attempt to generate amazon product reviews
+title: CHARM Algorithm
+excerpt: Data science task to create the CHARM the algorithm
 priority: 1
+author: nps1984
 categories:
   - works
 tags:
-  - LSTM
-  - RNN
+  - Python
+  - CHARM
 #date/lastmod are optional
 date: 2021-01-13 14:44:22 -0500
 lastmod: 2021-01-13 14:44:22 -0500
 ---
 
-# DSC680 Project 1 - Generate Product Reviews
-[Git Repo](https://github.com/nps1984/DSC680/tree/main/generate-product-reviews)
-This project was an attempt to use an LSTM model to generate coherent text in the form of a product review on Amazon. The results left much to be desired, contained in this repo are:
+# DSC550 Charm Algorithm
+[Git Repo](https://github.com/nps1984/DSC550/tree/master/charm)
+
+This python file here may look simple; it is just over a 100 lines, there are no custom classes, and I am using basic
+python3 code. But this took me nearly two 40 hour weeks to complete! The goal of this assignment was to recreate the
+charm algorithm based on pseudocode from a machine learning textbook. Again, it sounds simple, but the text was dense
+and complicated to understand
 
 ## Summary
-This was an attempt at training an LSTM model for generating text in the form of a new product review.
+It enumerates closed sets using a dual itemset-tidset search tree, using an efficient hybrid search that skips many levels.
+It also uses a technique called diffsets to reduce the memory footprint of intermediate computations. Finally it uses a
+fast hash-based approach to remove any "non-closed" sets found during computation
+— Zaki, Mohammed J., and Ching-Jui Hsiao. "CHARM: An efficient algorithm for closed itemset mining." 
+Proceedings of the 2002 SIAM international conference on data mining.
+Society for Industrial and Applied Mathematics, 2002.
 
-## Results
-My results weren't very good. I could not produce legible text.
- 
+
 
 
