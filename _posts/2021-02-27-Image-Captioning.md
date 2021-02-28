@@ -9,8 +9,8 @@ tags:
   - CNN
   - transfer learning
 #date/lastmod are optional
-date: 2021-02-28 14:44:22 -0500
-lastmod: 2021-02-28 14:44:22 -0500
+date: 2021-02-27 14:44:22 -0500
+lastmod: 2021-02-27 14:44:22 -0500
 ---
 
 # Image Captioning
