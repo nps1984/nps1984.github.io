@@ -2,6 +2,7 @@
 title: Image Captioning
 excerpt: Data science project to caption images
 priority: 1
+author: nps1984
 categories:
   - works
 tags:
