@@ -1,0 +1,29 @@
+---
+key: 1
+title: About
+permalink: /contact/
+options:
+excerpt: Please contact me!
+image: jaja.jpg
+background-image: chimney_top.jpg
+script-includes:
+  - /js/jquery.validate.min.js
+---
+
+<section id="cta" class="wrapper style4">
+            <div class="inner">
+              <header>
+                <h2>{{ site.closing-head }}</h2>
+                <p>{{ site.closing-para }}</p>
+              </header>
+              <ul class="actions vertical">
+                <!-- <li><a href="#" class="button fit special">Activate</a></li> -->
+                <li><a target="_blank" href="{%
+                    if site.social['email'] contains '@' %}mailto:{{ site.social['email'] }}{%
+                    endif %}" class="button fit special"
+                       ><span class="label">Contact</span></a></li>
+
+                <!-- <li><a href="{{ '/contact/' | prepend: site.baseurl }}" class="button fit special">Contact</a></li> -->
+              </ul>
+            </div>
+          </section>
