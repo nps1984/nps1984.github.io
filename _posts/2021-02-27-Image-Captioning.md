@@ -15,7 +15,7 @@ lastmod: 2021-02-27 14:44:22 -0500
 ---
 
 # Image Captioning
-[Git Repo](https://github.com/nps1984/DSC680/tree/main/image-captioning)
+[Git Repo](https://github.com/nps1984/image-captioning)
 This project was an attempt to caption images from the Flickr8k dataset. 
 
 ## Summary 

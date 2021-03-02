@@ -15,7 +15,7 @@ lastmod: 2021-01-13 14:44:22 -0500
 ---
 
 # Generate Product Reviews
-[Git Repo](https://github.com/nps1984/DSC680/tree/main/generate-product-reviews)
+[Git Repo](https://github.com/nps1984/generate-product-reviews)
 
 This project was an attempt to use an LSTM model to generate coherent text in the form of a product review on Amazon. The results left much to be desired, contained in this repo are:
 

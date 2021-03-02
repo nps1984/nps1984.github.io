@@ -13,7 +13,7 @@ lastmod: 2021-02-07 14:44:22 -0500
 ---
 
 # Breast Cancer Prediction
-[Git Repo](https://github.com/nps1984/DSC680/tree/main/breast-cancer-pred)
+[Git Repo](https://github.com/nps1984/breast-cancer/tree/main)
 This project was an attempt to use an CNN model against images to detect the occurence of breast cancer.
 
 ## Summary 
